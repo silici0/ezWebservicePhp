@@ -1,0 +1,11 @@
+{
+    "name": "silici0/ezwebservicephp",
+    "description": "Webservice access to Ezcommerce API",
+    "authors": [
+        {
+            "name": "Rafael Cunha",
+            "email": "silici0@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,5 +1,7 @@
 {
     "name": "silici0/ezwebservicephp",
+    "version" : "0.0.1",
+    "type" : "library",
     "description": "Webservice access to Ezcommerce API",
     "authors": [
         {
@@ -7,5 +9,6 @@
             "email": "silici0@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }

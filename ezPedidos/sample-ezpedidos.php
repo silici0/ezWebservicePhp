@@ -35,7 +35,23 @@ require_once dirname(__FILE__) . '/EzPedidosAutoload.php';
  * Examples
  */
 
+$wsdl = array();
+$wsdl[EzPedidosWsdlClass::WSDL_URL] = 'http://services03.ezcommerce.com.br/pedidows.svc?wsdl';
+$wsdl[EzPedidosWsdlClass::WSDL_CACHE_WSDL] = WSDL_CACHE_NONE;
+$wsdl[EzPedidosWsdlClass::WSDL_TRACE] = true;
+$wsdl[EzPedidosWsdlClass::WSDL_LOGIN] = 'svclaris';
+$wsdl[EzPedidosWsdlClass::WSDL_PASSWD] = '$vcl4r1$';
 
+$wsdlObject = new EzPedidosWsdlClass($wsdl);
+
+$ezPedidosServicePedidos = new EzPedidosServicePedidos();
+echo '<pre>';
+if($ezPedidosServicePedidos->PedidosDisponiveis())
+    print_r($ezPedidosServicePedidos->getResult());
+else
+    print_r($ezPedidosServicePedidos->getLastError());
+echo '</pre>';
+exit;
 /*************************************
  * Example for EzPedidosServicePedidos
  */

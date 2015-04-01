@@ -9,6 +9,11 @@
             "email": "silici0@gmail.com"
         }
     ],
+    "autoload": {
+      "psr-4": {
+        "ezwebservicephp\\": "src/"
+      }
+    },
     "minimum-stability": "stable",
     "require": {}
 }

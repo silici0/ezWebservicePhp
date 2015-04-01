@@ -11,9 +11,9 @@
     ],
     "autoload": {
       "psr-4": {
-        "ezPedidos\\": "src/",
-        "ezClientes\\": "src/",
-        "ezCatalogo\\": "src/"
+        "ezPedidos\\": "src/ezPedidos",
+        "ezClientes\\": "src/ezClientes",
+        "ezCatalogo\\": "src/ezCatalogo"
       }
     },
     "minimum-stability": "stable",

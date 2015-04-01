@@ -10,7 +10,7 @@ error_reporting(-1);
 /**
  * Load autoload
  */
-require_once dirname(__FILE__) . '/EzClientesAutoload.php';
+require_once dirname(__FILE__) . '/../src/EzClientesAutoload.php';
 /**
  * Wsdl instanciation infos. By default, nothing has to be set.
  * If you wish to override the SoapClient's options, please refer to the sample below.

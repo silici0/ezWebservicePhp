@@ -11,7 +11,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "ezwebservicephp\\": "src/"
+        "EzWebservice\\": "src/"
       }
     },
     "minimum-stability": "stable",

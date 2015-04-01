@@ -1,7 +1,7 @@
 <?php
 ini_set('default_socket_timeout', 600);
 
-require_once dirname(__FILE__) . '/EzPedidos/EzPedidosAutoload.php';
+require_once dirname(__FILE__) . '/../src/ezPedidos/EzPedidosAutoload.php';
 
 $wsdl = array();
 $wsdl[EzPedidosWsdlClass::WSDL_URL] = 'http://services03.ezcommerce.com.br/pedidows.svc?wsdl';

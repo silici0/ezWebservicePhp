@@ -11,13 +11,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "EzPedidosServicePedidos\\": "src/ezPedidos",
-        "EzPedidosServiceConfirma\\": "src/ezPedidos",
-        "EzPedidosServiceAtualizar\\": "src/ezPedidos",
-        "EzPedidosServiceCriar\\": "src/ezPedidos",
-        "EzPedidosServiceRemover\\": "src/ezPedidos",
-        "EzPedidosServiceAdicionar\\": "src/ezPedidos",
-        "EzPedidosServiceSalvar\\": "src/ezPedidos",
+        "EzPedidos\\": "src/ezPedidos",
         "ezCatalogo\\": "src/ezCatalogo"
       }
     },

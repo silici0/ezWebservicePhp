@@ -10,10 +10,9 @@
         }
     ],
     "autoload": {
-      "psr-4": {
-        "EzPedidos\\": "src/ezPedidos",
-        "ezCatalogo\\": "src/ezCatalogo"
-      }
+      "classmap": [
+        "src/"
+      ]
     },
     "minimum-stability": "stable",
     "require": {}

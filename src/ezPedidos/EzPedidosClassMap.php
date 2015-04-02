@@ -1,5 +1,4 @@
 <?php
-namespace EzPedidos;
 /**
  * File for the class which returns the class map definition
  * @package EzPedidos

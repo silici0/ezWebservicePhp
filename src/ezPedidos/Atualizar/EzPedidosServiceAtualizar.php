@@ -1,6 +1,4 @@
 <?php
-
-namespace EzPedidosServiceAtualizar;
 /**
  * File for class EzPedidosServiceAtualizar
  * @package EzPedidos

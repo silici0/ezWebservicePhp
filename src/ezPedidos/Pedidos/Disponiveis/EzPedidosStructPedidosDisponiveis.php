@@ -1,6 +1,4 @@
 <?php
-namespace EzPedidos\Pedidos;
-
 /**
  * File for class EzPedidosStructPedidosDisponiveis
  * @package EzPedidos

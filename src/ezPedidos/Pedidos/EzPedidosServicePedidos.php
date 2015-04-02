@@ -1,9 +1,4 @@
 <?php
-
-namespace EzPedidos\Pedidos;
-
-use EzPedidos\EzPedidosWsdlClass;
-use EzPedidos\Pedidos\Response\EzPedidosStructPedidosDisponiveisResponse;
 /**
  * File for class EzPedidosServicePedidos
  * @package EzPedidos

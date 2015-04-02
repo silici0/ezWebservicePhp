@@ -1,6 +1,4 @@
 <?php
-
-namespace EzPedidosServiceCriar;
 /**
  * File for class EzPedidosServiceCriar
  * @package EzPedidos

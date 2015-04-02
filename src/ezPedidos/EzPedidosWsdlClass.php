@@ -1,12 +1,4 @@
 <?php
-namespace EzPedidos;
-
-use stdClass;
-use ArrayAccess;
-use Iterator;
-use Countable;
-use SoapClient;
-
 /**
  * File for EzPedidosWsdlClass to communicate with SOAP service
  * @package EzPedidos
@@ -265,8 +257,8 @@ class EzPedidosWsdlClass extends stdClass implements ArrayAccess,Iterator,Counta
      */
     public function initSoapClient($_wsdlOptions)
     {
-//        if(class_exists('EzPedidosClassMap',true))
-//        {
+        if(class_exists('EzPedidosClassMap',true))
+        {
             $wsdlOptions = array();
             $wsdlOptions['classmap'] = EzPedidosClassMap::classMap();
             $defaultWsdlOptions = self::getDefaultWsdlOptions();
@@ -284,7 +276,7 @@ class EzPedidosWsdlClass extends stdClass implements ArrayAccess,Iterator,Counta
                 $soapClientClassName = self::getSoapClientClassName();
                 self::setSoapClient(new $soapClientClassName($wsdlUrl,$wsdlOptions));
             }
-//        }
+        }
     }
     /**
      * Returns the SoapClient class name to use to create the instance of the SoapClient.

@@ -1,4 +1,6 @@
 <?php
+
+namespace EzPedidosServiceAdicionar;
 /**
  * File for class EzPedidosServiceAdicionar
  * @package EzPedidos

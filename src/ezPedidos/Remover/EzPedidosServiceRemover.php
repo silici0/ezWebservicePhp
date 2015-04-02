@@ -1,4 +1,6 @@
 <?php
+
+namespace EzPedidosServiceRemover;
 /**
  * File for class EzPedidosServiceRemover
  * @package EzPedidos

@@ -1,4 +1,6 @@
 <?php
+
+namespace EzPedidosServiceConfirma;
 /**
  * File for class EzPedidosServiceConfirma
  * @package EzPedidos
